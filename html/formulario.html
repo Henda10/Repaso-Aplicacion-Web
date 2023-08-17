@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrate en TheTraveler</title>
-    <link rel="stylesheet" type="text/css" href="../estilos/estilos2.css"
+    <link rel="stylesheet" type="text/css" href="../estilos/estilos2.css">
+    <script type="text/javascript" src="../js/registro.js"></script>
+    <script>
+    	let nombre;
+    </script>
 </head>
 <body>
+	
+	<img src="../imagenes/portadas-gratis.jpg" height="250" width="1000" />
+    <h1>TheTraveler blog</h1>
+    <h2>El mejor blog para los viajeros independientes</h2>
+    <h3>Registrate para mantenerte al tanto de nuestros nuevos articulos</h3>
+    <br/>
+    <form action="javascript:alert('Registro realizado con exito');"method="post">
+    	<p><label for="txtNombre">Nombre <input type="text" id="txtNombre"/></label></p>
+    	<script>
+    		nombre = getElementById("txtNombre").value;
+    	</script>
+    	<p><label for="txtApellido">Apellido <input type="text" id="txtApellido"/></label></p>
+    	<p><label for="txtEdad">Edad <input type="text" id="txtEdad"/></label></p>
+    	<button type="submit">Enviar</button>
+    </form>
+    <script>registroCompletado(nombre);</script>
     
 </body>
 </html>
