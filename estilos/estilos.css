@@ -4,5 +4,13 @@ body{
 }
 
 h1{
-    color: black;
+    color: red;
+}
+
+h2{
+    color: grey;
+}
+
+p{
+    font-size:large;
 }
